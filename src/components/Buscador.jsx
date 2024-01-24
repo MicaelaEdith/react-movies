@@ -32,7 +32,7 @@ const Buscador = ({ onBuscar }) => {
     <nav className="navbar navbar-dark bg-secondary">
       <div className="container-fluid">
         <a
-          href="/"
+          href="/react-movies/"
           className="navbar-brand"
           style={{ color: '#fff', textDecoration: 'dark', fontSize: '1.5rem' }}
           onMouseEnter={handleMouseEnter}

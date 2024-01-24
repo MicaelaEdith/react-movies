@@ -14,6 +14,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home resultadosBusqueda={resultadosBusqueda} />} />
         <Route path="/detalle/:id" element={<TarjetaDetalle />} />
+        <Route path="/react-movies/" element={<Home resultadosBusqueda={resultadosBusqueda} />} />
       </Routes>
     </Router>
   );
